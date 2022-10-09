@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void susDesplz()&apos; from &apos;p_8_1.P_8_Extra.main(...)&apos; to &apos;p_8_1.P_8_Extra&apos;&#x0D;&#x0A;- Original project: &apos;TEMA 8&apos;&#x0D;&#x0A;- Method name: &apos;susDesplz&apos;&#x0D;&#x0A;- Destination type: &apos;p_8_1.P_8_Extra&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;susDesplz&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;p_8_1{P_8_Extra.java" name="susDesplz" replace="false" selection="384 143" stamp="1645445190020" version="1.0" visibility="1"/>
+</session>

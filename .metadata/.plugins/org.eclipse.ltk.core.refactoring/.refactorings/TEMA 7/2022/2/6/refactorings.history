@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void sacarListado(Empleado [] empleados)&apos; from &apos;p_7_6.Practica_7_6_VectorObjetos.main(...)&apos; to &apos;p_7_6.Practica_7_6_VectorObjetos&apos;&#x0D;&#x0A;- Original project: &apos;TEMA 7&apos;&#x0D;&#x0A;- Method name: &apos;sacarListado&apos;&#x0D;&#x0A;- Destination type: &apos;p_7_6.Practica_7_6_VectorObjetos&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;sacarListado&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;p_7_6{Practica_7_6_VectorObjetos.java" name="sacarListado" replace="false" selection="437 198" stamp="1644320719820" version="1.0" visibility="1"/>
+</session>

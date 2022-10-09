@@ -1,0 +1,13 @@
+1652703168873	Extract method 'escritura'
+1652713153634	Extract method 'generarObj'
+1652716046403	Extract method 'generarListado'
+1652719242870	Extract method 'volcarALista'
+1652861040558	Encapsulate field 'matricula'
+1652861044575	Encapsulate field 'fecha'
+1652861417545	Encapsulate field 'nruedas'
+1652861832618	Delete element
+1652887854663	Encapsulate field 'equipoL'
+1652887859638	Encapsulate field 'equipoV'
+1652887863263	Encapsulate field 'golesL'
+1652887867446	Encapsulate field 'golesV'
+1652950614041	Copy compilation unit

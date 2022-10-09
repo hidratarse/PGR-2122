@@ -1,0 +1,46 @@
+package p4_3;
+
+import java.util.Scanner;
+
+public class P_4_3_9 {
+	public static void main(String[] args) {
+		
+		int [][]array = new int[20][2];
+		
+		int exponente=saberExponente();
+		
+		
+		for(int i=0; i<array.length; i++) {
+			for(int e=0; e<array[i].length; e++) {
+				array[i][e] = (int)Math.pow(2,exponente);
+				
+				if(e==2)
+					System.out.print(exponente+"\t");
+				else
+					System.out.print(array[i][e]+"\t");
+				
+			}
+			System.out.println();
+		}
+		
+	}
+
+	public static int saberExponente() {
+		
+		int exponente;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		do {
+			System.out.println("Introduzca cuantas potencias quieres visualizar");
+			
+			exponente = sc.nextInt();
+			
+		}while(exponente<=20 || exponente>=-20);
+		
+		sc.close();
+		
+		return exponente;
+		
+	}
+}

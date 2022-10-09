@@ -1,0 +1,8 @@
+1648289293879	Delete element
+1648289329982	Rename package 'p_9_6'
+1648293833846	Extract method 'visualizarReservas'
+1648295223756	Extract method 'pedirEntero'
+1648296418828	Extract method 'pedirOpcion'
+1648297493630	Extract method 'quitarReserva'
+1648297907375	Extract method 'pedirHora'
+1648303139238	Extract method 'pedirNsocio'

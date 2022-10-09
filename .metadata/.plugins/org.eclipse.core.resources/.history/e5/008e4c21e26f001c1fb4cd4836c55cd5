@@ -1,0 +1,35 @@
+package hundir_la_flota;
+
+import java.util.Scanner;
+
+public class Flota {
+
+	public static void main(String[] args) {
+		
+		int ptosjg=24;
+		int ptospc=24;
+		boolean juegoTerminado=false;
+		boolean tiroCorrecto=false;
+		
+		Character mapaUsuario[][]=new Character [TAMANNIO][TAMANNIO];
+		Character mapaOrdenador[][]=new Character [TAMANNIO][TAMANNIO];
+		Character mapaOrdenadorParaUsuario[][]=new Character [TAMANNIO][TAMANNIO];
+		
+	}
+	
+Scanner sc = new Scanner(System.in);
+Character agua='A';
+Character AGUA_NO_TOCADO='.';
+Character TOCADO='X';
+static int TAMANNIO=10;
+
+public static void inicializacionMapa(Character mapa[][]) {
+	for(int i=0;i<mapa.length; i++) {
+		for(int e=0; e<mapa[i].length; e++) {
+			
+			mapa[i][e]=AGUA_NO_TOCADO;
+		}
+	}
+	
+}
+}

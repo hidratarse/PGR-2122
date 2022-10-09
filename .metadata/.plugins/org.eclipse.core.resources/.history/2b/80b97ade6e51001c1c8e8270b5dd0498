@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class P_4_0_ {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int [] array = new int[10];
+		int num=0;
+		
+		for (int i=0; i<array.length; i++) {
+			array[i]=sc.nextInt();
+			System.out.println(array[i]);
+			
+			if(array[i]>num)
+				num=array[i];
+			else
+				if();
+		}
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void quitarElemento()&apos; from &apos;p12_2.P_12_2.main(...)&apos; to &apos;p12_2.P_12_2&apos;&#x0D;&#x0A;- Original project: &apos;TEMA A2&apos;&#x0D;&#x0A;- Method name: &apos;quitarElemento&apos;&#x0D;&#x0A;- Destination type: &apos;p12_2.P_12_2&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;quitarElemento&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;p12_2{P_12_2.java" name="quitarElemento" replace="false" selection="440 121" stamp="1650810261992" version="1.0" visibility="1"/>
+</session>

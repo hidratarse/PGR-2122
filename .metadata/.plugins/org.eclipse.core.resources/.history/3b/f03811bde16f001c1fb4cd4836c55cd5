@@ -1,0 +1,23 @@
+package hundir_la_flota;
+
+import java.util.Scanner;
+
+public class Flota {
+
+	public static void main(String[] args) {
+		
+		int ptosjg=24;
+		int ptospc=24;
+		boolean juegoTerminado=false;
+		boolean tiroCorrecto=false;
+		
+		
+	}
+	
+Scanner sc = new Scanner(System.in);
+Character agua='A';
+Character AGUA_NO_TOCADO='.';
+Character TOCADO='X';
+int TAMANNIO=10;
+
+}

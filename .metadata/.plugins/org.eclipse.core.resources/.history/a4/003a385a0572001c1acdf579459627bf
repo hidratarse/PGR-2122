@@ -1,0 +1,69 @@
+package hundir_la_flota;
+
+import java.util.Scanner;
+
+public class Flota {
+
+	public static void main(String[] args) {
+		
+		int ptosjg=24;
+		int ptospc=24;
+		boolean juegoTerminado=false;
+		boolean tiroCorrecto=false;
+		
+		Character mapaUsuario[][]=new Character [TAMANNIO][TAMANNIO];
+		Character mapaOrdenador[][]=new Character [TAMANNIO][TAMANNIO];
+		Character mapaOrdenadorParaUsuario[][]=new Character [TAMANNIO][TAMANNIO];
+		
+	}
+	
+Scanner sc = new Scanner(System.in);
+static Character agua='A';
+static Character AGUA_NO_TOCADO='.';
+static Character TOCADO='X';
+static int TAMANNIO=10;
+
+public static void inicializacionMapa(Character mapa[][]) {
+	for(int i=0;i<mapa.length; i++) {
+		for(int e=0; e<mapa[i].length; e++) {
+			
+			mapa[i][e]=AGUA_NO_TOCADO;
+		}
+	}
+	
+}
+
+public static void registraBarcos(Character mapa[][]) {
+	
+	int barcos[] ={5,5,3,3,3,1,1,1,1,1};
+	Character direccion[]= {'V','H'};
+	int fila, columna;
+	boolean solapa=false;
+	for(int i=0;i<barcos.length; i++) {
+		
+		fila=(int)(Math.random()*9)+1;
+		columna=(int)(Math.random()*9)+1;
+		if(Math.random() < 0.5) {
+			if(fila+barcos[i]<=TAMANNIO-1){
+				for(int f=fila; fila<mapa.length; f++) {
+					if(mapa[f][columna]==barcos[i]) {
+						
+						solapa=true;
+					}
+				}
+			}
+		}else
+			if(columna+barcos[i]<=TAMANNIO-1){
+				for(int c=columna;columna<mapa.length; c++) {
+					if(mapa[fila][c]==barcos[i]) {
+						
+						solapa=true;
+					}
+				}
+			}
+		
+		
+	}
+	
+}
+}

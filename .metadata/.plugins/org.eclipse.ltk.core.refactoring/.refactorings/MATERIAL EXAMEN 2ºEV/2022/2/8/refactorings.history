@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void susConsecutivos(int [] [] array)&apos; from &apos;n1y2.P_1.main(...)&apos; to &apos;n1y2.P_1&apos;&#x0D;&#x0A;- Original project: &apos;MATERIAL EXAMEN 2ºEV&apos;&#x0D;&#x0A;- Method name: &apos;susConsecutivos&apos;&#x0D;&#x0A;- Destination type: &apos;n1y2.P_1&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;susConsecutivos&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;n1y2{P_1.java" name="susConsecutivos" replace="false" selection="173 345" stamp="1645437002896" version="1.0" visibility="1"/>
+</session>

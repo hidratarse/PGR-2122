@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void extracted()&apos; from &apos;p4_3.P_4_3_9.main(...)&apos; to &apos;p4_3.P_4_3_9&apos;&#x0D;&#x0A;- Original project: &apos;TEMA 4&apos;&#x0D;&#x0A;- Method name: &apos;extracted&apos;&#x0D;&#x0A;- Destination type: &apos;p4_3.P_4_3_9&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;extracted&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;p4_3{P_4_3_9.java" name="extracted" replace="false" selection="156 250" stamp="1641491544094" version="1.0" visibility="1"/>
+</session>
